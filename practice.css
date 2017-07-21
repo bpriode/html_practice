@@ -1,0 +1,68 @@
+body, *{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: flex-start;
+  background: blue;
+  padding: 10px;
+}
+
+.nav-bar a{
+  padding: 10px;
+  margin-left: 8px;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.content{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image{
+  border: 5px solid blue;
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+#one{
+  background-image: url("http://www.gsmnp.com/wp-content/uploads/Smoky-Mountains-National-Park-backpacking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#two{
+  background-image: url("http://www.gsmnp.com/wp-content/uploads/tips-for-backpackign-in-the-Smoky-Mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#three{
+  background-image: url("http://scotchcap.ca/wp-content/uploads/2013/04/fire.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#four{
+  background-image: url("http://img-aws.ehowcdn.com/560x560p/photos.demandstudios.com/getty/article/97/223/78489457.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
